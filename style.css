@@ -1,0 +1,16 @@
+@import url(./styles/cabecalho.css);
+@import url(./styles/sobremim.css);
+@import url(./styles/equipe.css);
+@import url(./styles/vagas.css);
+@import url(./styles/depoimento.css);
+@import url(./styles/footer.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}

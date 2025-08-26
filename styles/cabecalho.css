@@ -1,0 +1,78 @@
+/* cabeçalho */
+.cabecalho {
+  width: 100%;
+  padding: 2em 10em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo-cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.logo-cabecalho__logo {
+  width: 24px;
+  height: 24px;
+}
+
+/* Menu */
+.cabecalho__menu {
+  display: flex;
+  gap: 30px;
+   
+}
+
+.cabecalho__menu-item{
+  text-decoration: none;
+  color: #667085;
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+  font-weight: 500;
+  
+}
+
+.cabecalho__menu-item:hover {
+    color: #000;
+
+}
+.cabecalho-logo-menu{
+  display: flex;
+  align-items: center;
+  gap: 12em; /* controla a distância entre logo e menu */
+}
+
+.cabecalho__botoes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cabecalho__botoes .login {
+  text-decoration: none;
+  color: #667085;
+  font-size: 15px;
+}
+.cabecalho__botoes .login:hover{
+    color: #000;
+}
+
+.cabecalho__botoes .registrar {
+    text-decoration: none;
+  background-color: #8B1E1E;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+.cabecalho__botoes .registrar:hover{
+    background-color: #661414;
+}

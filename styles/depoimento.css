@@ -1,0 +1,52 @@
+/* Seção de depoimento */
+.depoimento {
+  max-width: 100%;
+  margin: 4em 8em;
+  text-align: center;
+  background: #fef9f9; /* fundo suave rosado */
+  padding: 4em 15em;
+  border-radius: 16px;
+}
+
+/* Subtítulo */
+.depoimento__titulo {
+  display: block;
+  font-size: 14px;
+  color: #8E2424; /* vermelho */
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Texto principal */
+.depoimento h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #101828;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Autor */
+.depoimento__foto {
+  text-align: center;
+}
+
+.depoimento__foto img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+}
+
+.depoimento__foto h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom: 0.3rem;
+}
+
+.depoimento__foto p {
+  font-size: 0.9rem;
+  color: #6b7280;
+}

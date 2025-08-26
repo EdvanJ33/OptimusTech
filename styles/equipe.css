@@ -1,0 +1,41 @@
+.equipe {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+  padding-top: 10em;
+  line-height: 1.5;
+}
+
+/* Titulo */
+.equipe__titulo {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #b91c1c;
+  background: #fee2e2;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+/* Subtitulo */
+.equipe h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: #111827;
+}
+
+/* Texto */
+.equipe p {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+/* Imagem */
+.equipe__imagem {
+  width: 100vw;   /* faz a imagem ocupar toda a largura da tela */
+  max-width: none; /* remove limite herdado do container */
+  margin-left: calc(-50vw + 50%); /* centraliza a imagem na tela */
+}

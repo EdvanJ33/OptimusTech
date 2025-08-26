@@ -1,0 +1,71 @@
+/* Seção de vagas */
+.vagas {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Título da categoria */
+.vagas h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  color: #101828;
+}
+
+/* Card de vaga */
+.vagas__cargo {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vagas__cargo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Nome da vaga */
+.vagas__cargo h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #101828;
+}
+
+/* Informações adicionais */
+.vagas__cargo p {
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.cargo__botao {
+  display: inline-block;
+  background: #8B1E1E;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  white-space: nowrap; /* impede quebra de linha */
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.cargo__botao:hover {
+  background: #661414;
+  transform: scale(1.03);
+}
+
+.cargo__botao:active {
+  transform: scale(0.98);
+}
